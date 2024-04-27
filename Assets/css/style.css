@@ -100,6 +100,18 @@ img {
     max-height: 240px;
 }
 
+.btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
